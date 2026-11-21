@@ -14,7 +14,7 @@ function formatarBRL(valor) {
 
 /* Preço efetivamente cobrado de um jogo */
 function precoDe(jogo) {
-  return jogo.preco;
+  return calcularPreco(jogo, CONFIG);
 }
 
 /* ---------------- Carregamento ---------------- */
